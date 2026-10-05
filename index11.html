@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додавання Зображень — Експеримент</title>
+</head>
+<body>
+    <h1>Вбудовування Зображення (&lt;img&gt;)</h1>
+
+    <h2>Зображення, що відображається:</h2>
+
+    <!-- Основне зображення з прикладу -->
+    <img
+        src="https://placehold.co/300x150/008080/FFFFFF/png?text=HTML+IMAGE"
+        alt="Геометричний прямокутник з написом HTML IMAGE"
+        width="300"
+        height="150"
+        style="border: 3px solid teal; border-radius: 5px; display: block;"
+    >
+
+    <h2>Експеримент зі зміною розміру:</h2>
+
+    <img
+        src="https://placehold.co/400x200/4169E1/FFFFFF/png?text=MY+EXPERIMENT"
+        alt="Зображення з написом MY EXPERIMENT"
+        width="400"
+        height="200"
+        style="border: 5px solid royalblue; border-radius: 12px; display: block;"
+    >
+
+    <h2>Перевірка alt-тексту:</h2>
+
+    <img
+        src="неіснуючий_шлях.jpg"
+        alt="Це альтернативний текст, який ви бачите, коли зображення не завантажилось."
+        width="300"
+        height="150"
+        style="border: 3px solid #FF4500; border-radius: 5px; display: block; margin-top: 20px;"
+    >
+
+    <p>
+        Якщо ви бачите текст замість зображення, це означає, що атрибут
+        <strong>alt</strong> спрацював.
+    </p>
+
+    <hr>
+</body>
+</html>
